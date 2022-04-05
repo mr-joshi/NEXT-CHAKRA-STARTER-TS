@@ -1,7 +1,7 @@
 import { IconButton, useColorMode } from "@chakra-ui/react";
 import { RiMoonFill, RiSunLine } from "react-icons/ri";
 
-const ColorMode = () => {
+const ThemeToggle  = () => {
   // toggle theme also stores theme in localStorage
   const { colorMode, toggleColorMode } = useColorMode();
   return (
@@ -13,4 +13,4 @@ const ColorMode = () => {
   );
 };
 
-export default ColorMode;
+export default ThemeToggle ;

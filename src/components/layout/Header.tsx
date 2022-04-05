@@ -1,6 +1,6 @@
 import { Box, Flex, Heading } from "@chakra-ui/react";
 import Link from "next/link";
-import ColorMode from './Colormode'
+import ThemeToggle  from './ThemeToggle '
 
 
 const Header = () => (
@@ -10,7 +10,7 @@ const Header = () => (
     </Heading>
 
     <Box marginLeft="auto">
-      <ColorMode/>
+      <ThemeToggle/>
     </Box>
   </Flex>
 );
